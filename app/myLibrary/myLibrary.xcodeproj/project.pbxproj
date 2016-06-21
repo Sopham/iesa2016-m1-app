@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CDC18561D196BAE002F14AC /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDC18551D196BAE002F14AC /* Book.swift */; };
+		1CDC18581D196DA9002F14AC /* BookStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDC18571D196DA9002F14AC /* BookStore.swift */; };
 		1CEE554B1D194B7000235245 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEE554A1D194B7000235245 /* AppDelegate.swift */; };
 		1CEE554D1D194B7000235245 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEE554C1D194B7000235245 /* MasterViewController.swift */; };
 		1CEE554F1D194B7000235245 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEE554E1D194B7000235245 /* DetailViewController.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CDC18551D196BAE002F14AC /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Book.swift; path = myLibrary/Book.swift; sourceTree = "<group>"; };
+		1CDC18571D196DA9002F14AC /* BookStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BookStore.swift; path = myLibrary/BookStore.swift; sourceTree = "<group>"; };
 		1CEE55471D194B7000235245 /* myLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CEE554A1D194B7000235245 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CEE554C1D194B7000235245 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 		1CEE553E1D194B7000235245 = {
 			isa = PBXGroup;
 			children = (
+				1CDC18551D196BAE002F14AC /* Book.swift */,
+				1CDC18571D196DA9002F14AC /* BookStore.swift */,
 				1CEE55491D194B7000235245 /* myLibrary */,
 				1CEE55601D194B7000235245 /* myLibraryTests */,
 				1CEE556B1D194B7000235245 /* myLibraryUITests */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CDC18561D196BAE002F14AC /* Book.swift in Sources */,
 				1CEE554F1D194B7000235245 /* DetailViewController.swift in Sources */,
 				1CEE554D1D194B7000235245 /* MasterViewController.swift in Sources */,
+				1CDC18581D196DA9002F14AC /* BookStore.swift in Sources */,
 				1CEE554B1D194B7000235245 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,6 +409,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = myLibrary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = book.me.myLibrary;
@@ -412,6 +421,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = myLibrary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = book.me.myLibrary;
@@ -486,6 +496,7 @@
 				1CEE55731D194B7000235245 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CEE55741D194B7000235245 /* Build configuration list for PBXNativeTarget "myLibraryTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +505,7 @@
 				1CEE55761D194B7000235245 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CEE55771D194B7000235245 /* Build configuration list for PBXNativeTarget "myLibraryUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +514,7 @@
 				1CEE55791D194B7000235245 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
